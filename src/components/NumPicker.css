@@ -1,0 +1,39 @@
+.App{
+    background: #212121;
+    color: #00E5FF;
+}
+
+input{
+    color:#00E5FF !important;
+    border-bottom-color: #00E5FF  !important;
+}
+
+.num-picker-holder{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height:100%;
+    min-height:100vh;
+}
+
+.buttons{
+    list-style: none;
+    display: block;
+    padding:0;
+}
+
+.buttons li{
+    display: inline-block;
+    margin-right:10px;
+}
+
+.num-picker-btn{
+    background: #00796B !important;
+    color:#fff !important;
+    min-width:40px !important;
+    padding:0 !important;
+}
+
+.active{
+    background: #E040FB !important;
+}
